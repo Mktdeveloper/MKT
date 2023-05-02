@@ -1,4 +1,3 @@
-/* Global styles */
 body {
 	margin: 0;
 	padding: 0;
@@ -276,4 +275,3 @@ footer p {
  .social-icon ul li:nth-child(5) a:hover{
     background-color: rgb(59, 58, 58);
  }
- 
