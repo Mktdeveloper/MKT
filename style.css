@@ -26,6 +26,7 @@ nav ul {
 
 nav ul li {
 	margin: 0 10px;
+	font-size: 150%;
 }
 
 nav ul li a {
@@ -47,6 +48,12 @@ nav ul li a {
 	margin-bottom: 20px;
     color: #fff;
 }
+
+@media screen and (max-width: 600px) {
+	#hero {
+	  font-size: 60px;
+	}
+  }
 
 #hero p {
 	font-size: 18px;
@@ -160,7 +167,7 @@ nav ul li a {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-    margin-left: 10%;
+    margin-left: 8%;
 }
 
 #portfolio ul li {
@@ -171,7 +178,9 @@ nav ul li a {
 #portfolio ul li img {
 	width: 100%;
     border-radius: 10%;
+	text-align: center;
 }
+
 
 /* Contact section styles */
 #contact {
